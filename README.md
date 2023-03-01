@@ -1,14 +1,14 @@
-# Viv Upgradable Token Practice
+# Flask_URI_JSON
 
-This is a practice project for an Upgradable Token
+basic flask app for erc1155 token metadata
 
 ## Getting Started
 
 ### Virtual Environment
 
-`mkvirtualenv myvirtualenv --python=/usr/bin/python3.9` create
-`workon myvirtualenv` activate
-`deactivate` deactivate
+- `mkvirtualenv tokenvirtualenv --python=/usr/bin/python3.9` create
+- `workon tokenvirtualenv` activate
+- `deactivate` deactivate
 
 ### Install Dependencies
 
