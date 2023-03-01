@@ -12,7 +12,7 @@ def hello_world():
 def get_uri(id):
     if id.endswith('.json'):
         response = app.response_class(
-            response=json.dumps({'id': id.replace('.json', '', 'todo': 'return erc1155 uri')}),
+            response=json.dumps({'id': id.replace('.json', ''), 'todo': 'return erc1155 uri'}),
             status=200,
             mimetype='application/json'
         )
